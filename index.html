@@ -8,7 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
 
   <link rel="stylesheet" href="css/icon-font.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="sass/main.css">
   <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 
   <title>Natours | Exciting tours for adventurous people</title>
@@ -129,7 +129,7 @@
       </div>
     </section>
 
-    <section class="section-tours">
+    <section class="section-tours" id="section-tours">
       <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary">
           Most popular tours
@@ -162,7 +162,7 @@
                   <p class="card__call-to-action__text-1">only</p>
                   <p class="card__call-to-action__text-2">$297</p>
                 </div>
-                <a href="" class="btn btn--white btn--animated">book now!</a>
+                <a href="#popup" class="btn btn--white btn--animated">book now!</a>
               </div>
             </div>
           </div>
@@ -192,7 +192,7 @@
                   <p class="card__call-to-action__text-1">only</p>
                   <p class="card__call-to-action__text-2">$497</p>
                 </div>
-                <a href="" class="btn btn--white btn--animated">book now!</a>
+                <a href="#popup" class="btn btn--white btn--animated">book now!</a>
               </div>
             </div>
           </div>
@@ -222,7 +222,7 @@
                   <p class="card__call-to-action__text-1">only</p>
                   <p class="card__call-to-action__text-2">$897</p>
                 </div>
-                <a href="" class="btn btn--white btn--animated">book now!</a>
+                <a href="#popup" class="btn btn--white btn--animated">book now!</a>
               </div>
             </div>
           </div>
@@ -353,7 +353,88 @@ Built by <a href="#" class="footer__link">Jonas Schmedtmann</a> for his online c
         </div>
       </div>
     </footer>
+
+    <div class="popup" id="popup">
+      <div class="popup__content">
+        <div class="popup__left">
+          <img src="img/nat-8.jpg" alt="tour photo" class="popup__img">
+          <img src="img/nat-9.jpg" alt="tour photo" class="popup__img">
+        </div>
+        <div class="popup__right">
+              <a href="#section-tour" class="popup__close">&times;</a>
+              <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+              <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read terms before booking</h3>
+              <p class="popup__text u-margin-bottom-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ab officia, voluptatum fugit cum, perspiciatis laudantium praesentium deserunt laborum quam odit magnam inventore repudiandae corporis. Qui ipsa voluptates voluptatem id? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora odit minima sed fugiat expedita incidunt ad sit exercitationem unde, optio blanditiis quasi animi doloremque nam ipsam, magni maiores officiis. Iusto?</p>
+              <a href="#" class="btn btn--green">Book now</a>
+        </div>
+      </div>
+    </div>
+
   </main>
+
+  <!-- <section class="grid-test">
+    <div class="row">
+      <div class="col-1-of-2">
+        col-1-of-2
+      </div>
+      <div class="col-1-of-2">
+        col-1-of-2
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1-of-3">
+        col-1-of-3
+      </div>
+      <div class="col-1-of-3">
+        col-1-of-3
+      </div>
+      <div class="col-1-of-3">
+        col-1-of-3
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1-of-3">
+        col-1-of-3
+      </div>
+      <div class="col-2-of-3">
+        col-2-of-3
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1-of-4">
+        col-1-of-4
+      </div>
+      <div class="col-1-of-4">
+        col-1-of-4
+      </div>
+      <div class="col-1-of-4">
+        col-1-of-4
+      </div>
+      <div class="col-1-of-4">
+        col-1-of-4
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1-of-4">
+        col-1-of-4
+      </div>
+      <div class="col-1-of-4">
+        col-1-of-4
+      </div>
+      <div class="col-2-of-4">
+        col-2-of-4
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1-of-4">
+        col-1-of-4
+      </div>
+      <div class="col-3-of-4">
+        col-3-of-4
+      </div>
+    </div>
+  </section> -->
+
 </body>
 
 </html>
